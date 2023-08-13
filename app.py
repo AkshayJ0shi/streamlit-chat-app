@@ -3,8 +3,6 @@ from streamlit_chat import message
 from langchain import OpenAI
 from langchain.chains import ConversationChain
 from langchain.chains.conversation.memory import ConversationSummaryMemory
-from dotenv import load_dotenv
-load_dotenv()
 
 if 'conversation' not in st.session_state:
     # create a variable named 'conversation'
